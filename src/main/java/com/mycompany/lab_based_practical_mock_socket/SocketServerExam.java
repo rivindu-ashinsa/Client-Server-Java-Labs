@@ -87,7 +87,7 @@ public class SocketServerExam {
                 /* TODO 14: Wrap the OutputStream in a PrintWriter.
                  * IMPORTANT: Enable 'auto-flush' in the constructor to ensure data is sent immediately. [3 Marks] */
 
-                out = new PrintWriter(outputStream); 
+                out = new PrintWriter(outputStream,true); 
                 
                 String inputLine;
 
